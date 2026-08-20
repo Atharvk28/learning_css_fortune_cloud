@@ -1,0 +1,20 @@
+h4{
+  color:black;
+  background-color: coral;
+  size: 25px;
+}
+h6{
+  color: blue;
+  background-color: chartreuse;
+  font-size: 39px;
+}
+.hi{
+  color: rgb(6, 53, 38);
+  background-color: pink;
+  font-size: 30px;
+}
+#id_attribute{
+  color: black;
+  background-color: chartreuse;
+  font-size: medium;
+}

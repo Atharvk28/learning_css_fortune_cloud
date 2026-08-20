@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- external css file is linked using link tag  -->
+   <link rel="stylesheet" href="css/style.css">
+  <!-- internal css  -->
+  <style>
+    h2{
+      color: red;
+      background-color: lawngreen;
+      size: 20px;
+    }
+    h3{
+      color: black;
+      size: 35px;
+    }
+    h2{
+      /* in overridden properties the latest property will be applied. in css 
+      in this example this property will be applied. */
+      color: rgb(34, 19, 48) !important;
+      background-color: brown;
+    }
+  </style>
+</head>
+<body>
+  <!-- external link css  -->
+   <h4>hi atharv, i am in pune.</h4>
+   <h6>good afternoon ajay.</h6>
+  <p id="id_attribute"> using id attribute.</p>
+   <p class="hi">using class attribute.</p>
+
+
+
+  <!-- Inline CSS Examples.... -->
+  <h1 style="color: rgb(0, 0, 0); background-color:yellow; font-size: 30px;">Welcome to my website.</h1>
+  
+  <marquee behavior="scroll" direction="left" style="background-color: yellow; font-size: 30px;">
+    <h1 style="color: red; font-size: 30px;">windmillstrategy</h1>
+  </marquee>
+
+
+
+  <!-- internal css example -->
+   <section>
+    <!-- we can override the inline style by using the "!important" attribute  -->
+    <h2 style="color: greenyellow; background-color: palevioletred;">i am atharv.</h2>
+    <h3>fortune cloud </h3>
+   </section>
+  
+</body>
+</html>
