@@ -1,0 +1,9 @@
+.header_content{
+  color: black;
+  background-color: red;
+}
+.article_content{
+  #main_heading{
+    color: rgb(110, 109, 109);
+  }
+}
