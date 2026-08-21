@@ -1,0 +1,57 @@
+.heading3{
+  color: brown;
+  background-color: rgb(136, 229, 136);
+}
+.heading_1{
+  color: cadetblue;
+  background-color:gray;
+}
+.bg_color{
+  color: antiquewhite;
+background-color: rgb(8, 34, 55);
+}
+.font_size{
+  font-size: 50px;
+}
+#id_selector{
+  font-size: 30;
+  background-color: palegreen;
+
+}
+.t_transform{
+  background-color: palevioletred;
+  text-transform: uppercase;
+}
+.t_lowercase{
+  text-transform: lowercase;
+  background-color: paleturquoise;
+}
+.t_capitalize{
+  text-transform: capitalize;
+  background-color: peru;
+}
+.t_underline{
+  text-decoration: underline;
+}
+.t_overline{
+  text-decoration: overline;
+}
+.t_line_through{
+  text-decoration: line-through;
+}
+.text_decoration{
+  text-decoration: line-through overline underline;
+}
+.t_align_r{
+  text-align: right;
+}
+.t_align_c{
+  text-align: center;
+}
+.t_align_l{
+  text-align: left;
+}
+.t_shadow{
+  color: paleturquoise;
+  text-shadow: 2px 0px 0px rgb(19, 22, 38);
+}

@@ -1,4 +1,4 @@
-.header_content{
+.header_class{
   color: black;
   background-color: red;
 }
@@ -6,4 +6,10 @@
   #main_heading{
     color: rgb(110, 109, 109);
   }
+}
+h1{
+  color: red;
+}
+.tag_line{
+  background-color: rgb(61, 192, 192);
 }
