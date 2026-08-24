@@ -1,0 +1,23 @@
+.font_family{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p_font_fam{
+  font-family: fantasy;
+}
+.mono_soace{
+  font-family: monospace;
+}
+.cursive{
+  font-family: cursive;
+}
+.font_weight{
+  font-weight: 700;
+}
+.t_font_weight{
+  font-weight: 900;
+  font-size: 38px;
+  font-style: italic;
+}
+.font_varient{
+  font-variant: small-caps;
+}

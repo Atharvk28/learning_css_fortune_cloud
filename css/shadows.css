@@ -1,0 +1,13 @@
+.t_shadow{
+  text-shadow: 4px 4px 4px red;
+}
+.box_shadow{
+  box-shadow: 9px 9px 8px red;
+}
+.minions{
+  height: 250px;
+  filter: drop-shadow(12px 10px 8px yellow);
+}
+.drop_shadow{
+  filter: drop-shadow(13px 18px 12px red);
+}

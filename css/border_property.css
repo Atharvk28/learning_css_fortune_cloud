@@ -1,0 +1,30 @@
+/* broder styles */
+  .background1{
+  width: 100;
+  border: 8px solid red;
+  /* border other properties for every side  */
+  /* border side color  */
+  border-top-color : blue;
+  border-bottom-color:blue; 
+}
+.background2{
+  width: 100;
+  border: 8px dotted red;
+  
+}
+.background3{
+  width: 100;
+  border: 8px dashed red;
+}
+.background4{
+  width: 100;
+  border: 8px inset red;
+}
+.background5{
+  width: 100;
+  border: 8px outset red;
+}
+.background6{
+  width: 100;
+  border: px groove red;
+}
