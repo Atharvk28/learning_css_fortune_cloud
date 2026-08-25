@@ -1,4 +1,8 @@
 /* broder styles */
+
+  /* <!-- we have to give the three values - 'thickness style color' --> */
+
+
   .background1{
   width: 100;
   border: 8px solid red;

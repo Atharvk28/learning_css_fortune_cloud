@@ -1,0 +1,16 @@
+.box_m{
+  margin: 20;
+  padding: 20px;
+  border: 8px solid red;
+}
+.box_m2{
+  border: 5px double blue;
+  /* 4 properties are top right bottom left  */
+  margin: 5px 7px 5px 7px;
+  padding: 5px 7px 5px 7px;
+}
+.box_m_img{
+  padding: 4px;
+  border: 5px double orange;
+  margin: 5px;
+}

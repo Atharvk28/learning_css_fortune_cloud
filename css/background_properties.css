@@ -1,0 +1,29 @@
+.linear_gradient{
+  text-align: center;
+  font-size: 60px;
+  color: blue;
+  height: 200px;
+  margin: 50px;
+  padding: 50px;
+
+  /* using the linear gradient property in background   */
+  background: linear-gradient( orange, white, green );
+}
+
+.radial_gradient{
+  text-align: center;
+
+  font-size: 30px;
+  padding: 20px;
+  color: blueviolet;
+  height: 150px;
+  width: 150px;
+  background: radial-gradient(circle,red, orange, white,green);
+  /* instead of circle we can use ellipse,  */
+}
+.conic_gradieent{
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  background: conic-gradient(from 45deg, red, orange, yellow);
+}
