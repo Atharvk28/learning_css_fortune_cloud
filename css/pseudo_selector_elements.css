@@ -1,0 +1,27 @@
+.hover_h1{
+  margin: 10px;
+  padding: 5px;
+  font-size: 15px;
+}
+.hover_h1:hover{
+  color: white;
+  background-color: black;
+  font-size: 20px;
+}
+.p_hover:hover{
+  font-size: 15px;
+}
+.active_h2:active{
+  color: blueviolet;
+}
+.active_p:active{
+  color: blue;
+  font-size: 20px;
+}
+.input_focus:focus{
+  background-color: gray;
+  font-size: 15px;
+}
+.visited_a:visited{
+  color: blueviolet;
+}
