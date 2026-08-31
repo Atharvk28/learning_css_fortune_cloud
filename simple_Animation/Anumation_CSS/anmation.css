@@ -1,0 +1,54 @@
+div{
+  width: 130px;
+  height: 130px;
+  background-image: url();
+  /* background-color: yellow; */
+  border-radius: 45%;
+  position: relative;
+  animation: moving_box;
+  animation-duration: 15s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+ size: 3;
+}
+
+@keyframes moving_box {
+
+  0%{
+  background-image: url(../../images/images.png);
+
+    /* background-color: brown; */
+    left: 0px;
+    top: 0%;
+   
+  }
+  25%{
+  background-image: url(../../images/bear_PNG23468.png);
+
+    /* background-color: red; */
+    left: 230px;
+    top: 0px;
+  }
+  50%{
+  background-image: url(../../images/jungle.jfif);
+
+    /* background-color: blue; */
+    top: 120px;
+    left: 230px;
+  }
+75%{
+  background-image: url(../../images/earth_PNG37.png);
+  top: 120px;
+  left: 0px;
+}
+  100%{
+  background-image: url(../../images/images.png);
+
+  /* background-color: brown; */
+    left: 0px;
+    top: 0%;
+    bottom: 450px;
+  }
+  
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Anumation_CSS/text_animatin.css
+  ">
+
+  <style>
+    .text_container{
+      /* text-shadow: 4px 4px gray; */
+     font-size: 150px;
+     font-weight: 400;
+     display: flex;
+     flex-wrap: wrap;
+     letter-spacing: 6px;
+     /* color: transparent; */
+     transform-origin: bottom;
+     animation: getupdown 10s infinite;
+     background-color: linear-gradient(orange, white, green);
+     background-clip: text;
+
+    }
+
+    .text_container>b:nth-child(1){animation-delay: 0s;}
+    .text_container>b:nth-child(2){animation-delay: 0.25s;}
+    .text_container>b:nth-child(3){animation-delay: 0.50s;}
+    .text_container>b:nth-child(4){animation-delay: 0.75s;}
+    .text_container>b:nth-child(5){animation-delay: 1s;}
+    .text_container>b:nth-child(6){animation-delay: 1.25s;}
+
+    @keyframes getupdown{
+      from{transform: rotate(-90deg);}
+      10%,50%{
+        transform: rotate(0deg);
+      }
+      60%,to{transform: rotate(-90deg);}
+    }
+  </style>
+</head>
+<body>
+  <div class="text_container">
+   <b class="child1">A</b>
+   <b class="child2">T</b>
+   <b class="child3">H</b>
+   <b class="child4">A</b>
+   <b class="child5">R</b>
+   <b class="child6">V</b>
+    </div>
+</body>
+</html>
