@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>media query</title>
+
+    <style>
+      @media (min-width: 320px) and (max-width: 767px) {
+        body {
+          color: aliceblue;
+          background-color: #2b2b2b;
+        }
+
+        body h1 {
+          text-shadow: 3px 3px 7px rgb(160, 158, 158);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        p {
+          margin: 5px;
+          padding: 3px;
+          background-color: #383838;
+          border-radius: 3px;
+        }
+      }
+
+      @media(min-width: 768px){
+        /* from 768px to up  */
+
+        body{
+          background-color: #383838c5;
+          color: azure;
+        }
+        h1{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-shadow:4px 4px 6px #767474;
+        }
+      }
+
+      @media(min-width : 1220px){
+        body{
+          background-color: #383838;
+          color: azure;
+          padding: 3px;
+          margin: 3px;
+        }
+        .img_m1{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>media query</h1>
+    <h2>Hello i am atharv</h2>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima reiciendis
+      deserunt adipisci maxime quae vitae amet nisi minus nostrum iusto? Amet
+      recusandae distinctio esse quia ea reiciendis modi in suscipit? Lorem
+      ipsum dolor sit amet, consectetur adipisicing elit. Tenetur laudantium ad
+      sint doloremque deleniti neque officia facilis? Voluptas provident
+      excepturi eligendi, voluptate laborum animi, fuga culpa voluptatum fugiat
+      omnis incidunt?
+    </p>
+
+    <img src="../images/galaxy.jfif" alt="image for media query." class="img_m1" />
+  </body>
+</html>

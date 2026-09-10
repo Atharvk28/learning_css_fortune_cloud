@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>z_index</title>
+    <style>
+      .container{
+        position: relative;
+        margin: 50px;
+      }
+      div{
+        width: 190px;
+        height: 190px;
+        border-radius: 90px;
+        position: absolute;
+        display: flex;
+        border: 1px solid black;
+        box-shadow: 6px 8px 6px rgb(148, 147, 147);
+      }
+      .z_index1{
+        background-color: green;
+        left: 50px;
+        z-index: 1;
+      }
+      .z_index2{
+        background-color: #ffff;
+        left: 90px;
+        z-index: 2;
+      }
+      .z_index3{
+        background-color: orange;
+        left: 130px;
+        z-index: 3;
+      }
+
+
+
+    </style>
+  </head>
+  <body>
+    <h1>Z-index</h1>
+    <section  class="container">
+
+    <div class="z_index1"></div>
+
+    <div class="z_index2"> </div>
+
+    <div class="z_index3"> </div>
+
+    </section>
+
+  </body>
+</html>
