@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #e5e9ef;
+      display: grid;
+      text-decoration: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: rgb(138, 141, 143);
+
+    }
+
+    .navbar {
+      width: max(1120px, calc(100%-40px));
+      height: 50px;
+      background-color: #b4e4f7;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      box-shadow: 8px 8px 18px #9bd8ee, -8px -8px 18px #fff;
+      margin: 25px;
+      padding: 16px 25px;
+      border-radius: 18px;
+
+    }
+
+    ul {
+      display: flex;
+      gap: 10px;
+      list-style: none;
+
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar">
+    <a href="#"><span class="first-head">Vastra</span> <span class="sec-head">Craft</span></a>
+
+    <ul>
+      <li class="nav-items"><a href="#">Home</a></li>
+      <li class="nav-items"><a href="#">About</a></li>
+      <li class="nav-items"><a href="#">Contact</a></li>
+      <li class="nav-items"><a href="#">Products</a></li>
+    </ul>
+    <a href="#">Cart</a>
+  </nav>
+
+</body>
+
+</html>
